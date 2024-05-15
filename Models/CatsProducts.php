@@ -1,9 +1,9 @@
 <?php
 
-class CatsProducts extends Products {
+require_once __DIR__ . '/Categories.php';
 
-
-
+class CatsProducts extends Categories {
+    
 }
 
 ?>
